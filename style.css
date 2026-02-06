@@ -301,6 +301,7 @@ h1 {
     height: 100px;
     margin-bottom: var(--spacing-sm);
     transform: translateX(15px);
+    z-index: 1000000;
 }
 
 .diagonal-card-content .img-container img {
@@ -309,6 +310,7 @@ h1 {
     object-fit: contain;
     transform: rotateZ(-25deg);
     filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2));
+    z-index: 10000000;
 }
 
 .diagonal-card-content h2 {
