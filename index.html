@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- Agregar en el <head> del HTML -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+        rel="stylesheet">
+
+    <link rel='stylesheet'
+        href='https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <link rel='stylesheet'
+        href='https://cdn-uicons.flaticon.com/2.6.0/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+
+
+    <title>Montefredo - Helado Artesanal</title>
+</head>
+
+<body>
+    <div id="bg-mask">
+
+        <h1>
+            Montefredo
+        </h1>
+        <span class="slogan">helado artesanal con alta dosis de felicidad</span>
+
+        <section class="main">
+            <div class="slider-container">
+                <div class="slider-track">
+                    <!-- CARD 1 -->
+                    <div class="diagonal-card active">
+                        <svg class="diagonal-card-bg" viewBox="0 0 360 280" preserveAspectRatio="none">
+                            <defs>
+                                <linearGradient id="cardGradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" stop-color="#4E342E" />
+                                    <stop offset="50%" stop-color="#6D4C41" />
+                                    <stop offset="100%" stop-color="#8D6E63" />
+                                </linearGradient>
+                            </defs>
+                            <path
+                                d="M 20 50 L 340 0 Q 360 0, 360 20 L 360 260 Q 360 280, 340 280 L 20 280 Q 0 280, 0 260 L 0 70 Q 0 50, 20 50 Z"
+                                fill="url(#cardGradient1)" />
+                        </svg>
+                        <div class="diagonal-card-content">
+                            <div class="img-container">
+                                <img src="assets/pngwing.com (5).png" alt="">
+                            </div>
+                            <h2>chocolate</h2>
+                            <p>cacao puro</p>
+                            <div class="div2">
+                                <span class="precio">12.00</span>
+                                <button>+</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- CARD 2 -->
+                    <div class="diagonal-card">
+                        <svg class="diagonal-card-bg" viewBox="0 0 360 280" preserveAspectRatio="none">
+                            <defs>
+                                <linearGradient id="cardGradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" stop-color="#6D4C41" />
+                                    <stop offset="50%" stop-color="#D84315" />
+                                    <stop offset="100%" stop-color="#F48FB1" />
+                                </linearGradient>
+                            </defs>
+                            <path
+                                d="M 20 50 L 340 0 Q 360 0, 360 20 L 360 260 Q 360 280, 340 280 L 20 280 Q 0 280, 0 260 L 0 70 Q 0 50, 20 50 Z"
+                                fill="url(#cardGradient2)" />
+                        </svg>
+                        <div class="diagonal-card-content">
+                            <div class="img-container">
+                                <img src="assets/pngwing.com (4).png" alt="">
+                            </div>
+                            <h2>fresa</h2>
+                            <p>tu mejor opcion</p>
+                            <div class="div2">
+                                <span class="precio">12.00</span>
+                                <button>+</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- CARD 3 -->
+                    <div class="diagonal-card">
+                        <svg class="diagonal-card-bg" viewBox="0 0 360 280" preserveAspectRatio="none">
+                            <defs>
+                                <linearGradient id="cardGradient3" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" stop-color="#4A148C" />
+                                    <stop offset="50%" stop-color="#6A1B9A" />
+                                    <stop offset="100%" stop-color="#AD1457" />
+                                </linearGradient>
+                            </defs>
+                            <path
+                                d="M 20 50 L 340 0 Q 360 0, 360 20 L 360 260 Q 360 280, 340 280 L 20 280 Q 0 280, 0 260 L 0 70 Q 0 50, 20 50 Z"
+                                fill="url(#cardGradient3)" />
+                        </svg>
+                        <div class="diagonal-card-content">
+                            <div class="img-container">
+                                <img src="assets/pngwing.com (7).png" alt="">
+                            </div>
+                            <h2>amarento</h2>
+                            <p>tu mejor opcion</p>
+                            <div class="div2">
+                                <span class="precio">12.00</span>
+                                <button>+</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-dots">
+                    <button class="dot active" data-slide="0"></button>
+                    <button class="dot" data-slide="1"></button>
+                    <button class="dot" data-slide="2"></button>
+                </div>
+            </div>
+        </section>
+
+        <section class="opcions">
+            <h3>Opciones</h3>
+            <div class="opcions-scroll">
+                <div class="opcion">
+                    <img src="assets/cafe.jfif" alt="">
+                    <span>cafés</span>
+
+                </div>
+                <div class="opcion">
+                    <img src="assets/dulces.jfif" alt="">
+                    <span>dulces</span>
+
+                </div>
+                <div class="opcion"><img src="assets/panes.jfif" alt="">
+                    <span>panes</span>
+
+                </div>
+                <div class="opcion"><img src="assets/batidos.jfif" alt="">
+                    <span>batidos</span>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section class="nav-section">
+            <nav class="nav-bar">
+                <ul>
+                    <i class="fi fi-rr-home active"></i> <!-- Casa -->
+                    <i class="fi fi-rr-search"></i> <!-- Búsqueda -->
+                    <i class="fi fi-rr-shopping-cart"></i> <!-- Carrito -->
+                    <i class="fi fi-rr-user"></i> <!-- Usuario -->
+                </ul>
+            </nav>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+
+</html>
